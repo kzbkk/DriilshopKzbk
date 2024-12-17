@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agdasima:wght@400;700&family=Alfa+Slab+One&family=Archivo+Black&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pirata+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=UnifrakturMaguntia&display=swap');
+
+body {
+    
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #434343;
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.home{
+    height: 650px;
+}
+
+.carousel {
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+.carousel-trakcer {
+    display: flex;
+    gap: 1px;
+    transition: 0.5s;
+}
+.carousel-item{
+    min-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.nikelogo{
+    width: 300px;
+    height: 574px;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.by{
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+main {
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.elemContainer {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.elemContainer:hover {
+    transform: scale(1.1);
+}
+.imageSneaker {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+footer{
+    height: 100px;
+    background-color: #333;
+    padding: 4%;
+    margin-top: 100px;
+    color: #ddd;
+}
+.style {
+    font-size: 20px;
+    margin-left: 5% ;
+    
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+ul{
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 5% ;
+    margin-top: 5%;
+
+}
+.korzina{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+.btnKorzina{
+    border-radius: 5px;
+    background-color: #434343;
+   
+    
+}
+.butBas{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.imageBas{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+.element{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pricei{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+
+.oplata{
+    font-weight: bold;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+
+.btnRegis{
+    border-radius: 20px;
+    background-color: #434343;
+    width: 10px;
+    
+}
+.regimg{
+    width: 30px;
+    
+    margin-bottom: -5px;
+}
+.added { 
+    display: none; 
+    position: fixed; 
+    font-weight: bold;
+    top: 20px; 
+    right: 20px; 
+    background-color: rgb(81, 81, 81); 
+    color: rgb(255, 255, 255); 
+    padding: 15px; 
+    border-radius: 5px; 
+    z-index: 1000; 
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 45.1%;
+    margin-bottom: 10px;
+}
+.registerForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+.regbtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.dripimg{
+  height: 570px;
+  border-radius: 5px;
+}
+.c2cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -200px;
+}
+.shopnowBtn{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.shopnowBtn:hover {
+    transform: scale(1.1);
+}
+.ccont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.conteinerSS{
+    margin-bottom: 30px;
+
+}
+.search{
+    background-color: #000000;
+    color: rgb(81, 81, 81);
+    font-weight: bold;
+    border: solid 1px rgb(81, 81, 81);
+
+}
+select{
+    background-color: #000000;
+    color: rgb(81, 81, 81);
+    border: solid 1px rgb(81, 81, 81);
+    font-weight: bold;
+}
+
+.mycabinet{
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.nameP{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+.emailP{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+
+.oldpass{
+    background-color: #000000;
+    color: rgb(81, 81, 81);
+    font-weight: bold;
+    border: solid 1px rgb(81, 81, 81);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.newpass{
+    background-color: #000000;
+    color: rgb(81, 81, 81);
+    font-weight: bold;
+    border: solid 1px rgb(81, 81, 81);
+    margin-bottom: 10px;
+
+
+}
+.mycabinetecontent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.reset{
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.exit{
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.loginbtn{
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.name{
+    background-color: #000000;
+    color: rgb(81, 81, 81);
+    font-weight: bold;
+    border: solid 1px rgb(81, 81, 81);
+    margin-bottom: 20px;
+}
+.email{
+    background-color: #000000;
+    color: rgb(81, 81, 81);
+    font-weight: bold;
+    border: solid 1px rgb(81, 81, 81);
+    margin-bottom: 10px;
+}
+.password{
+    background-color: #000000;
+    color: rgb(81, 81, 81);
+    font-weight: bold;
+    border: solid 1px rgb(81, 81, 81);
+    margin-bottom: 10px;
+}
+.regA{
+    color: #ddd;
+}
+.logA{
+    color: #ddd;
+}
